@@ -1,4 +1,4 @@
-3 / 13 test cases passed.
+13 / 13 test cases passed.
 
 Test Case 1 passed!
 Expected Output
