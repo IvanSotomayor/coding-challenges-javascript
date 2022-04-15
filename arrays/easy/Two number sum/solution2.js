@@ -9,9 +9,11 @@ function twoNumberSum(array, targetSum) {
 		if(x in hashMap){
 			result.push(y);
 			result.push(x);
+			break;
 		}else{
-			hashMap[y] = 1;
+			hashMap[y] = i;
 		}
+		
 	}
 	return result;
 }
